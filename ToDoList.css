@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+}
+header{
+
+    background-color: paleturquoise;
+    margin-bottom: 0px;
+}
+header,main{
+    padding-bottom: 25px;
+    width: 75%;
+    margin-left: 10%;
+}
+#addField{
+
+}
+#inp,#addBtn{
+    padding: 10px;
+    border: none;
+}
+#inp{
+    width: 55%;
+}
+#addBtn{
+    width: 15%;
+}
+main{
+    padding: 0px;
+    height: 530px;
+}
+.quest :hover{
+    background-color: darkgrey;
+}
+.quest{
+
+    height: 40px;
+}
+.qlineText,.qlineBtn{
+    border: none;
+    background-color: #ECECEC;
+    height: auto;
+    margin: 0px;
+}
+.qlineText{
+    padding-top: 10px;
+    padding-bottom: 12px;
+    float: left;
+    width: 80%;
+    text-align: left;
+}
+.qlineBtn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    width: 20%;
+}
+.qlineBtn:hover{
+    background-color: paleturquoise;
+}
+.active :hover{
+    background-color: darkgrey;
+}
